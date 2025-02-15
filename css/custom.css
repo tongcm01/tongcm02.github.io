@@ -1,0 +1,738 @@
+h2.title-head {
+  margin-top: 15px;
+}
+.text-muted {
+  display: none;
+}
+.error {
+  color: #dc3545;
+}
+.copytotal,
+.copyacc {
+  display: flex;
+  position: absolute !important;
+  bottom: 8px;
+  right: 20px;
+  padding: 3px 5px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  width: auto;
+}
+.copytotal i,
+.copyacc i {
+  margin-right: 3px;
+  margin-top: 2px;
+}
+
+.guest-box-result {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.guest-result-row-2 {
+  display: none;
+}
+
+.guest-result-row-2.active {
+  display: block;
+}
+
+.lotto-card {
+  position: relative;
+  text-decoration: none;
+}
+
+.lotto-card .absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.lotto-card .absolute img {
+  border-radius: 0 5px;
+  height: 50px;
+}
+
+.lotto-card .card-inner {
+  display: none;
+}
+
+.lotto-card .card-inner.active {
+  display: block;
+}
+
+.guest-row-group-2 .card-body {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.guest-yeekee-content {
+  max-height: 410px;
+  overflow: scroll;
+}
+
+.lotto-logo {
+  width: 45px;
+}
+
+.thai-lotto-container a {
+  text-decoration: none;
+}
+
+.icon-branding-lotto {
+  width: 25px;
+}
+
+.title-head {
+  margin-bottom: 10px;
+}
+
+.lotto-branding-name {
+  color: #ff5500;
+  font-size: 20px;
+}
+
+.lotto-list-title h4 {
+  font-size: 13px;
+}
+
+#nav-lotto .btn {
+  width: 33.33%;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 12px;
+}
+
+.home-menu img,
+#nav-lotto-button img,
+#menubar-2 img {
+  height: 70px;
+}
+
+.service-icon {
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: solid 1px #a9a9a9;
+  background-color: #ffffff;
+}
+.showcases .showcase-list .showcase-item {
+  text-align: center;
+}
+
+.game-container {
+  padding-top: 28px;
+  border-radius: 32px;
+  background-color: #ffffff;
+}
+.game-container .back-btn {
+  font-size: 18px;
+  color: var(--bs-heading-color);
+  position: absolute !important;
+  width: 25px;
+  height: 25px;
+}
+.game-container h3 {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+.game-container-list a {
+  text-decoration: none;
+}
+.game-container-list img {
+  width: 100%;
+  border-radius: 16px;
+}
+.game-container-list span {
+  font-size: 14px;
+  color: #72798d;
+  font-weight: 500;
+  display: block;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+#input-game-search {
+  width: 100%;
+  /* border-radius: 4px; */
+  padding: 6px 12px;
+  transition: width 0.4s ease-in-out;
+  font-size: 1rem;
+  height: clamp(30px, 2vw, 36px);
+}
+
+.contact-page-info .contact-info-box-content h4 {
+  font-size: 17px;
+  margin-top: 0;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.contact-page-info .contact-info-box-content p {
+  font-size: 14px;
+}
+.contact-page-info .contact-info-box i.big-icon {
+  text-align: center;
+  float: left;
+  font-size: 30px;
+  border-radius: 50%;
+  margin-top: 2px;
+}
+.contact-page-info .contact-info-box .contact-info-box-content {
+  padding-left: 60px;
+  margin-bottom: 25px;
+}
+.statement-container h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.statement-container-btn-date .btn {
+  width: 100%;
+  font-weight: 800;
+}
+
+.statement-container-header .card-body {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--bs-heading-color);
+}
+
+.btn-secondary-gray,
+.btn-secondary-gray:hover,
+.btn-secondary-gray:active {
+  background: #6c757d;
+  border-color: #6c757d;
+}
+
+.lotto-hits .showcase-item {
+  width: 78px !important;
+  margin-right: 3px !important;
+}
+
+.thai-lotto-container .lotto-list-wrapper img {
+  filter: grayscale(100%);
+}
+
+.thai-lotto-container .lotto-list-wrapper.active img {
+  filter: grayscale(0%);
+}
+.lotto-flag-background.active {
+  background-image: linear-gradient(#cee1fc, #ffffff) !important;
+  background-size: 100% 80px;
+  background-repeat: no-repeat;
+}
+
+.lotto-flag-background.active .mini-btn-lotto {
+  cursor: pointer;
+  background-image: linear-gradient(#cee1fc, #ffffff) !important;
+  background-size: 100% 50px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lotto-flag-background.active .mini-btn-lotto img {
+  width: 30px;
+}
+
+/* .thai-lotto-container .card-lotto-group-1.active,
+.thai-lotto-container .card-lotto-group-2.active {
+    background: linear-gradient(45deg, #d8eaf9, #c5e8e3);
+}
+
+.thai-lotto-container .card-lotto-group-4.active {
+    background: linear-gradient(45deg, #f5e1e1, #e4dae8);
+}
+
+.thai-lotto-container .card-lotto-group-6.active {
+    background: linear-gradient(45deg, #d5eafa, #d6def1);
+}
+
+.thai-lotto-container .card-lotto-group-3.active {
+    background: linear-gradient(45deg, #e1efd3, #eeedd5);
+}
+
+.thai-lotto-container .card-lotto-group-7.active {
+    background: linear-gradient(45deg, #d5e9fa, #d6def1);
+}
+
+.thai-lotto-container .card-lotto-group-5.active {
+    background: linear-gradient(45deg, #f9e7da, #fcfadc);
+}
+
+.thai-lotto-container .card-lotto-group-yeekee.active {
+    background: linear-gradient(45deg, #e3f3d6, #d2f2de);
+} */
+
+.lotto-result-container {
+  padding: 0;
+}
+.lotto-result-container h4,
+.lotto-result-container h6 {
+  font-weight: 800;
+  color: rgb(47, 52, 65) !important;
+}
+.lotto-result-container .yeekee h6 img,
+.lotto-result-container .government h6 img {
+  width: 50px;
+}
+.lotto-result-container .card-lotto .card-header {
+  padding-top: 0.7rem !important;
+  padding-bottom: 0.7rem !important;
+  font-weight: 800;
+}
+.lotto-result-container .card-lotto .card-header img {
+  width: 35px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+table.bg-primary {
+  border-radius: 15px;
+}
+
+table.bg-primary th {
+  color: #000000;
+}
+
+table.bg-primary th,
+table.bg-primary td {
+  padding: 15px;
+}
+
+.bg-primary {
+  background: linear-gradient(#89a0f2, #6480ef) !important;
+  color: #ffffff;
+}
+
+.poy-container a {
+  text-decoration: none;
+}
+.poy-container .detail-poy {
+  color: #2d4699;
+  margin-top: 0.5rem;
+}
+.poy-container .head-title {
+  color: #000000;
+}
+.poy-container .table-item {
+  background-image: linear-gradient(#89a0f2, #6480ef);
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+}
+
+header .fa.fa-close {
+  font-size: 30px;
+}
+
+#registerLoginModal .step-indicator {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+#registerLoginModal .step {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+#registerLoginModal .step-indicator .step-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background: #c2c2c2;
+  font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+#registerLoginModal .step.active .step-icon {
+  background: #2d4699;
+}
+
+#registerLoginModal .step p {
+  text-align: center;
+  position: absolute;
+  bottom: -40px;
+  color: #c2c2c2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#registerLoginModal .step.active p {
+  color: #2d4699;
+}
+
+#registerLoginModal .step.step2 p,
+.step.step3 p {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#registerLoginModal .indicator-line {
+  width: 100%;
+  height: 2px;
+  background: #c2c2c2;
+  flex: 1;
+}
+
+#registerLoginModal .indicator-line.active {
+  background: #2d4699;
+}
+.register-step,
+.login-step {
+  display: none;
+}
+.modal-dialog label.number {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-color: hsla(0, 0%, 90%, 0.2);
+  border: 1px solid #000;
+  border-radius: 2px;
+  font-size: 40px;
+  font-weight: 500;
+  height: 48px;
+  line-height: 50px;
+  margin: 0 2px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 48px;
+}
+.modal-dialog label.number span {
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: blink;
+  background: #fff;
+  height: 70%;
+  left: 50%;
+  opacity: 1;
+  position: absolute;
+  top: 15%;
+  width: 2px;
+}
+.modal-dialog .key-pad > .row > .col-4 {
+  padding-bottom: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.modal-dialog .key-pad > .row > .col-4 .btn {
+  font-size: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.modal-dialog .key-pad > .row > .col-4 .btn-blank {
+  background-color: #ccc;
+  background-image: none;
+  border-color: #bbb;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+}
+.modal-dialog .key-pad > .row > .col-4 .btn-cancel,
+.modal-dialog .key-pad > .row > .col-4 .btn-reset {
+  font-size: 16px;
+  height: 100%;
+  line-height: 1;
+  word-break: break-all;
+}
+
+.modal-dialog .btn-outline-gray,
+.modal-dialog .btn-outline-gray:hover {
+  background-color: rgba(40, 39, 39, 0.6);
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.hrTopStdMenu {
+  border-top: 1px groove #fff;
+  margin: 16px 22px 8px 24px;
+}
+
+.bar1 {
+  width: 24px;
+  height: 4px;
+  background-color: #fff;
+  margin: 8px 0 6px;
+  /* transition: .4s; */
+  border-radius: 2px;
+  /* -webkit-transition: transform .6s ease-in-out */
+}
+
+.bar2,
+.bar3 {
+  width: 36px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  /* transition: .4s; */
+  border-radius: 2px;
+  /* -webkit-transition: transform .6s ease-in-out */
+}
+
+#slideMenuBar {
+  height: 50px;
+  z-index: 1031;
+}
+
+#slideMenuBar .fa-times-circle {
+  font-size: 30px;
+  color: #4d7eff;
+}
+
+#navMenuIcon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.sidenavMenu.show {
+  background-color: white;
+
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 40;
+  color: #fff;
+  text-align: left;
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+  transition: 0.8s;
+  z-index: 1031;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidenavMenu a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.sidenavMenu.show::-webkit-scrollbar {
+  display: none;
+}
+
+.sidenavMenu {
+  background-color: white;
+
+  width: 0;
+  height: auto;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  bottom: 0;
+  z-index: 40;
+  color: #fff;
+  text-align: left;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: 0.8s;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  z-index: 1031;
+}
+
+.sidenavOverlay.show {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  left: 0;
+}
+
+.sidenavOverlay {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 40;
+  color: #fff;
+  text-align: left;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: 0.8s;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  width: 0;
+  left: -300px;
+}
+
+.overlayFadeIn {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.8s;
+}
+
+.overlayFadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.x-close-btn {
+  color: #ffffff;
+  font-size: 30px;
+}
+.forgot-step,
+#forgot-step2 {
+  display: none;
+}
+
+.remove-appearance::-webkit-outer-spin-button,
+.remove-appearance::-webkit-inner-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  margin: 0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+  .lotto-flag-background.active .mini-btn-lotto img {
+    width: 35px;
+  }
+  .guest-row-group-2 .card-body {
+    text-align: left;
+    margin-top: 0;
+  }
+  .lotto-card .card-body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .lotto-card .absolute img {
+    height: 60px;
+  }
+  .home-menu img,
+  #nav-lotto-button img,
+  #menubar-2 img {
+    height: 100px;
+  }
+
+  .lotto-logo {
+    width: 90px;
+  }
+
+  #nav-lotto .btn {
+    font-size: 18px;
+  }
+
+  .lotto-list-title h4 {
+    font-size: 24px;
+  }
+
+  .showcases .showcase-list .showcase-item {
+    width: 121px;
+  }
+  .lotto-hits .showcase-item {
+    width: 110px !important;
+  }
+
+  .sidenavMenu.show {
+    width: 300px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+  .showcases .showcase-list .showcase-item {
+    width: 137px;
+  }
+  .lotto-list-title h4 {
+    font-size: 24px;
+  }
+
+  #registerLoginModal .modal-content {
+    height: auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  .showcases .showcase-list .showcase-item {
+    width: 137px;
+  }
+  .lotto-hits .showcase-item {
+    width: 124px !important;
+  }
+  .lotto-list-title h4 {
+    font-size: 15px;
+  }
+
+  .lotto-list-title small {
+    font-size: 11px;
+  }
+  .lotto-list-timer-wrapper {
+    padding-top: 10px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .showcases .showcase-list .showcase-item {
+    width: 167px;
+  }
+  .lotto-hits .showcase-item {
+    width: 148px !important;
+  }
+  .lotto-list-title h4 {
+    font-size: 20px;
+  }
+  .lotto-list-title small {
+    font-size: 14px;
+  }
+  .lotto-list-timer-wrapper {
+    padding-top: 0;
+  }
+  .statement-container {
+    margin-top: 3rem !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1400px) {
+  .showcases .showcase-list .showcase-item {
+    width: 198px;
+  }
+  .lotto-hits .showcase-item {
+    width: 173px !important;
+  }
+  .lotto-list-title h4 {
+    font-size: 24px;
+  }
+  .statement-container-btn-date {
+    margin-top: 1rem !important;
+  }
+  .statement-container-btn-date .btn {
+    width: 50%;
+    padding: 13px;
+  }
+  .statement-container-btn-date div:first-child .btn {
+    float: right;
+  }
+  .statement-container-header {
+    margin-top: 2rem !important;
+  }
+}
