@@ -1,0 +1,68 @@
+.yeekee-container {
+  background-color: #ecf5fe;
+  border: 1px solid #4c7ffb;
+  position: relative;
+  border-radius: 10px;
+  width: 24%;
+}
+
+.yeekee-list-container {
+  max-height: 700px;
+  overflow: auto;
+}
+
+@media (max-width: 575.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .yeekee-list-container {
+    height: 40vh;
+    overflow: auto;
+  }
+
+  .lotto-container {
+    width: 140px !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .yeekee-container {
+    background-color: #ecf5fe;
+    border: 1px solid #4c7ffb;
+    position: relative;
+    border-radius: 10px;
+    width: 48%;
+  }
+
+  .lotto-container {
+    width: 180px;
+  }
+  .lotto-container > div > div > span {
+    font-size: clamp(14px, 2vw, 1rem) !important;
+  }
+
+  .lotto-container > div > div:first-child > span {
+    font-size: clamp(14px, 2vw, 1rem) !important;
+  }
+
+  .lotto-container > div > div > span {
+    font-size: clamp(10px, 2vw, 1rem) !important;
+  }
+
+  .lotto-container > div > div > span > span {
+    font-size: clamp(10px, 2vw, 1rem) !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .yeekee-container {
+    background-color: #ecf5fe;
+    border: 1px solid #4c7ffb;
+    position: relative;
+    border-radius: 10px;
+    width: 48%;
+  }
+}
+
+@media (max-width: 1399.98px) {
+}
